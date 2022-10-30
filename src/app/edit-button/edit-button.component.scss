@@ -1,0 +1,23 @@
+button{
+  box-sizing: border-box;
+
+
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+padding: 8px 35px;
+/* White 100% */
+
+background: #eee;
+border: 1px solid #9DC2FF;
+border-radius: 4px;
+}
+
+
+button:hover{
+  transition: 0,9s;
+  color: #fff;
+  background-color: #1A73E8;
+  font-weight: bolder;
+}

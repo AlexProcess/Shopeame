@@ -1,0 +1,27 @@
+main{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+
+  .contain__gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  .gallery__image{
+    object-fit: cover;
+    height: 224px;
+    width: 226px;
+  }
+  .gallery-product__text{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+}
